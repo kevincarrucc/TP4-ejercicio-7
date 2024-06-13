@@ -9,8 +9,17 @@
         Dim vectorA(8), vectorB(8), contador As Integer
         For i = 0 To 7
             vectorA(i) = InputBox("Cargar 8 valores")
-
-
+            GrillaVectorA.Rows(i).Cells(0).Value = vectorA(i)
+        Next
+        For i = 0 To 7
+            If i < 4 Then
+                contador = i + 4
+                vectorB(i) = vectorA(contador)
+            Else
+                contador = i - 4
+                vectorB(i) = vectorA(contador)
+            End If
+            GrillaVectorB.Rows(i).Cells(0).Value = vectorB(i)
         Next
     End Sub
 

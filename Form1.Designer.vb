@@ -45,7 +45,7 @@ Partial Class Form1
         Me.GrillaVectorB.Location = New System.Drawing.Point(112, 12)
         Me.GrillaVectorB.Name = "GrillaVectorB"
         Me.GrillaVectorB.RowHeadersVisible = False
-        Me.GrillaVectorB.Size = New System.Drawing.Size(67, 340)
+        Me.GrillaVectorB.Size = New System.Drawing.Size(67, 237)
         Me.GrillaVectorB.TabIndex = 1
         '
         'GrillaVectorA
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.GrillaVectorA.Location = New System.Drawing.Point(12, 12)
         Me.GrillaVectorA.Name = "GrillaVectorA"
         Me.GrillaVectorA.RowHeadersVisible = False
-        Me.GrillaVectorA.Size = New System.Drawing.Size(71, 340)
+        Me.GrillaVectorA.Size = New System.Drawing.Size(71, 237)
         Me.GrillaVectorA.TabIndex = 2
         '
         'Form1
